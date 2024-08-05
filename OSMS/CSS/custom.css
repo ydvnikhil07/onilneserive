@@ -1,0 +1,57 @@
+.body {
+    display: flex;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255) !important;
+}
+
+.nav-link:hover {
+    color: #fd0303 !important;
+}
+
+/* Example custom CSS that might interfere */
+.nav-link.active {
+    background-color: rgb(255, 0, 0);
+    color: rgb(241, 241, 241) !important; /* This would disable the default styling */
+}
+
+
+.back-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    border-radius: 0px;
+    margin-top: 74px;
+}
+
+.font-italic {
+    font-size: 24px;
+}
+
+.mainHeading {
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .myclass {
+        margin-top: 350px;
+        text-align: center;
+    }
+    .navbar-text{
+   display: none;
+    }
+}
+
+.fi-color {
+    color: red;
+}
+
+ 
